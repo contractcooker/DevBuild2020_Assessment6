@@ -1,0 +1,31 @@
+﻿@model DevBuild2020_Assessment5.Models.RsvpForm
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>RSVP</h1>
+
+<form asp-controller="Rsvp" asp-action="Rsvp" method="post">
+    @Html.LabelFor(m => m.FirstName): @Html.EditorFor(m => m.FirstName)<br />
+
+    @Html.LabelFor(m => m.LastName): @Html.EditorFor(m => m.LastName)<br />
+
+    @Html.LabelFor(m => m.Email): <input asp-for="Email" /><br />
+
+    @Html.LabelFor(m => m.Attending):
+    @Html.RadioButtonFor(m => m.Attending, "true") Yes
+    @Html.RadioButtonFor(m => m.Attending, "false") No <br />
+
+    @*<div>
+            <label for="attending">
+                <input id="attending" value="yes" type="radio" />YES!
+            </label>
+            <label for="attending">
+                <input id="attending" value="no" type="radio" />No
+            </label>
+        </div>*@
+
+    @Html.LabelFor(m => m.Guest): @Html.EditorFor(m => m.Guest)<br />
+    <input type="submit" value="REGISTER" />
+</form>
