@@ -1,30 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tbarron\\source\\repos\\DevBuild2020_Assessment5\\DevBuild2020_Assessment5\\DevBuild2020_Assessment5.csproj": {}
+    "/Users/husker/Documents/GitHub/DevBuild2020_Assessment6/DevBuild2020_Assessment5/DevBuild2020_Assessment5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tbarron\\source\\repos\\DevBuild2020_Assessment5\\DevBuild2020_Assessment5\\DevBuild2020_Assessment5.csproj": {
+    "/Users/husker/Documents/GitHub/DevBuild2020_Assessment6/DevBuild2020_Assessment5/DevBuild2020_Assessment5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tbarron\\source\\repos\\DevBuild2020_Assessment5\\DevBuild2020_Assessment5\\DevBuild2020_Assessment5.csproj",
+        "projectUniqueName": "/Users/husker/Documents/GitHub/DevBuild2020_Assessment6/DevBuild2020_Assessment5/DevBuild2020_Assessment5.csproj",
         "projectName": "DevBuild2020_Assessment5",
-        "projectPath": "C:\\Users\\tbarron\\source\\repos\\DevBuild2020_Assessment5\\DevBuild2020_Assessment5\\DevBuild2020_Assessment5.csproj",
-        "packagesPath": "C:\\Users\\tbarron\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tbarron\\source\\repos\\DevBuild2020_Assessment5\\DevBuild2020_Assessment5\\obj\\",
+        "projectPath": "/Users/husker/Documents/GitHub/DevBuild2020_Assessment6/DevBuild2020_Assessment5/DevBuild2020_Assessment5.csproj",
+        "packagesPath": "/Users/husker/.nuget/packages/",
+        "outputPath": "/Users/husker/Documents/GitHub/DevBuild2020_Assessment6/DevBuild2020_Assessment5/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tbarron\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/husker/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,9 +36,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
             }
           },
           "imports": [
@@ -64,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
         }
       }
     }

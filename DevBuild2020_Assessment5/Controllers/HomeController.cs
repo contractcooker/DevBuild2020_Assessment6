@@ -6,17 +6,22 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using DevBuild2020_Assessment5.Models;
+using Microsoft.Extensions.Configuration;
 
 namespace DevBuild2020_Assessment5.Controllers
 {
+
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        IConfiguration ConfigRoot;
+        DAL dal;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IConfiguration config)
         {
-            _logger = logger;
+            ConfigRoot = config;
+            dal = new DAL(ConfigRoot.GetConnectionString("Party"));
         }
+           
 
         public IActionResult Index()
         {

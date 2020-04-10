@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "Admin Index";
+    List<RsvpForm> Products = (List<RsvpForm>)ViewData["Products"];
+}
+
+<h1>Product Administration**</h1>
+@if  (TempData["UserMsg"] != null)
+{
+    <p>@TempData["UserMsg"]</p>
+}
+
+
+<div><a href="/Admin/AddForm">Add</a></div>
+
+
+
+@foreach (RsvpForm r in Products)
+{
+    <div>
+        @r.FirstName @r.LastName @r.EmailAddress @r.Attending
+        <a href="/Admin/Edit/@r.Id">Edit</a>
+        <a href="/Admin/Delete/@r.Id">Delete</a>
+    </div>
+}
+

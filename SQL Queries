@@ -1,0 +1,40 @@
+USE master;
+
+ALTER DATABASE Party SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+
+IF EXISTS (
+  SELECT [name]
+   FROM sys.databases
+   WHERE [name] = N'Party'
+)
+
+DROP DATABASE Party
+
+/* Run this first */
+CREATE DATABASE Party;
+GO
+/* run these commands after */
+USE Party;
+
+CREATE TABLE Dish(
+  DishID int NOT NULL PRIMARY KEY IDENTITY,
+  PersonName NVARCHAR(50),
+  PhoneNumber NVARCHAR(24),
+  DishName NVARCHAR(50),
+  DishDescription NVARCHAR(100),
+  Selection NCHAR(10)
+)
+
+CREATE TABLE Guest(
+    GuestID int NOT NULL PRIMARY KEY IDENTITY,
+    FirstName NVARCHAR(50) NOT NULL,
+    LastName NVARCHAR(50) NOT NULL,
+    AttendanceDate DATETIME,
+    Email NVARCHAR(50) NOT NULL,
+    Guest NVARCHAR(50)
+)
+
+INSERT INTO Dish
+(PersonName, PhoneNumber, DishName, DishDescription, Selection)
+VALUES
+('Thomas Barron', '7349268564', 'Meatballs','Tasty Meatballs', 'Vegan')

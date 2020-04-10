@@ -1,0 +1,20 @@
+@page
+@model DevBuild2020_Assessment5.Views.Rsvp.FarewellModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Farewell</title>
+</head>
+<body>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+    <h2>This is a farewell greeting</h2>
+</body>
+</html>

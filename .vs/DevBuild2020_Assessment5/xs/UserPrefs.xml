@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{6025377A-AC49-4214-BA4A-5DD24C588D3B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DevBuild2020_Assessment5/Views/Dish/DishList.cshtml">
+    <Files>
+      <File FileName="DevBuild2020_Assessment5/Controllers/AdminController.cs" Line="22" Column="11" />
+      <File FileName="DevBuild2020_Assessment5/Models/RsvpForm.cs" Line="28" Column="24" />
+      <File FileName="DevBuild2020_Assessment5/Views/Rsvp/Rsvp.cshtml" Line="16" Column="1" />
+      <File FileName="DevBuild2020_Assessment5/Views/Admin/AdminIndex.cshtml" Line="25" Column="2" />
+      <File FileName="DevBuild2020_Assessment5/Models/DishForm.cs" Line="22" Column="64" />
+      <File FileName="DevBuild2020_Assessment5/Views/Dish/Dish.cshtml" Line="13" Column="1" />
+      <File FileName="DevBuild2020_Assessment5/Views/Dish/DishIndex.cshtml" Line="16" Column="44" />
+      <File FileName="DevBuild2020_Assessment5/Views/Rsvp/RsvpIndex.cshtml" Line="42" Column="51" />
+      <File FileName="DevBuild2020_Assessment5/Controllers/RsvpController.cs" Line="46" Column="10" />
+      <File FileName="DevBuild2020_Assessment5/Controllers/DishController.cs" Line="64" Column="52" />
+      <File FileName="DevBuild2020_Assessment5/Models/DAL.cs" Line="65" Column="29" />
+      <File FileName="DevBuild2020_Assessment5/Views/Dish/Detail.cshtml" Line="11" Column="2" />
+      <File FileName="DevBuild2020_Assessment5/Views/Shared/_Layout.cshtml" Line="29" Column="124" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DevBuild2020_Assessment5" expanded="True">
+            <Node name="DevBuild2020_Assessment5" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Admin" expanded="True" />
+                <Node name="Dish" expanded="True">
+                  <Node name="DishList.cshtml" selected="True" />
+                </Node>
+                <Node name="Home" expanded="True" />
+                <Node name="Rsvp" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DevBuild2020__Assessment5 PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>

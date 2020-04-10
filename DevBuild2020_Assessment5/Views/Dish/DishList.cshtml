@@ -1,0 +1,11 @@
+﻿
+@{
+    List<DishForm> dishForms = (List<DishForm>)ViewData["Dishes"];
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@foreach (DishForm d in dishForms)
+{
+<div>@d.PersonName @d.PhoneNumber @d.DishName @d.DishDescription @d.Selection</div>
+}
