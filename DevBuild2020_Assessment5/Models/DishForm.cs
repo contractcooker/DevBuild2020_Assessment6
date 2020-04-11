@@ -27,6 +27,7 @@ namespace DevBuild2020_Assessment5.Models
         public string PhoneNumber { get => phoneNumber; set => phoneNumber = value; }
 
         [Required]
+        [DisplayName("Dish")]
         public string DishName { get => dishName; set => dishName = value; }
 
         [MaxLength(280)]
